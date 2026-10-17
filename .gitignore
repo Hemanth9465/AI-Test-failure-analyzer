@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+evaluation_result.json
+ci_analysis.json
+logs/
