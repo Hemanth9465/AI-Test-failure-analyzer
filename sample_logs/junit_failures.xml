@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WebRegression" tests="9" failures="7" skipped="1">
+  <testcase classname="Login" name="test_login_status" time="0.8"><failure type="AssertionError" message="expected 200 got 500">AssertionError: expected 200 got 500
+  at login_api.py:42</failure></testcase>
+  <testcase classname="Login" name="test_signup_status" time="0.9"><failure type="AssertionError" message="expected 200 got 500">AssertionError: expected 200 got 500
+  at login_api.py:46</failure></testcase>
+  <testcase classname="Checkout" name="test_checkout_ready" time="30"><failure type="TimeoutException" message="timed out after 30 seconds">TimeoutException: timed out after 30 seconds waiting for checkout response</failure></testcase>
+  <testcase classname="Search" name="test_search_button" time="2"><failure type="NoSuchElementException" message="unable to locate #search-submit">NoSuchElementException: unable to locate element #search-submit after page layout change</failure></testcase>
+  <testcase classname="Payment" name="test_payment_service" time="1"><failure type="ConnectionRefusedError" message="connection refused">ConnectionRefusedError: connection refused at payment service localhost:9000</failure></testcase>
+  <testcase classname="Runner" name="test_dependency" time="0.1"><failure type="ModuleNotFoundError" message="No module named selenium">ModuleNotFoundError: No module named selenium</failure></testcase>
+  <testcase classname="Profile" name="test_customer_fixture" time="0.1"><failure type="ValidationError" message="missing data in fixture">ValidationError: missing data in fixture: required customer_id</failure></testcase>
+  <testcase classname="Cart" name="test_cart_quantity" time="0.4"/>
+  <testcase classname="Search" name="test_mobile_search" time="0"><skipped message="mobile device unavailable"/></testcase>
+</testsuite>

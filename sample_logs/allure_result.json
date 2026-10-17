@@ -1,0 +1,1 @@
+{"name":"test_payment_endpoint","fullName":"tests.payment.test_payment_endpoint","status":"broken","statusDetails":{"message":"ConnectionRefusedError: connection refused","trace":"ConnectionRefusedError: connection refused at payment service localhost:9000"}}

@@ -1,0 +1,15 @@
+TEST: SearchTest.searchButton
+STATUS: failed
+NoSuchElementException: unable to locate #search-button
+Browser: Chrome
+
+TEST: CheckoutTest.waitForResponse
+STATUS: failed
+TimeoutException: timed out after 30 seconds
+
+TEST: CartTest.intermittentFailure
+STATUS: failed
+AssertionError: expected quantity 2 got 1. Passed on retry.
+
+TEST: LoginTest.validUser
+STATUS: passed

@@ -1,0 +1,6 @@
+{"tests":[
+  {"nodeid":"tests/test_auth.py::test_login","outcome":"failed","call":{"outcome":"failed","duration":0.2,"longrepr":"AssertionError: expected 200 got 500"}},
+  {"nodeid":"tests/test_auth.py::test_logout","outcome":"passed","call":{"outcome":"passed","duration":0.1}},
+  {"nodeid":"tests/test_data.py::test_fixture","outcome":"failed","setup":{"outcome":"failed","duration":0.1,"longrepr":"ValidationError: missing data in fixture"}},
+  {"nodeid":"tests/test_checkout.py::test_retry","outcome":"passed","retry":true,"call":{"outcome":"passed","duration":0.3}}
+]}
